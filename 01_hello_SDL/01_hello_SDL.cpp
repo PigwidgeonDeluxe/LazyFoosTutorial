@@ -24,7 +24,7 @@ int main( int argc, char* args[] )
 	}
 	else
 	{
-		//Create window
+		//Create window with windows caption title "SDL Tutorial"
 		window = SDL_CreateWindow( "SDL Tutorial", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN );
 		if( window == NULL )
 		{
