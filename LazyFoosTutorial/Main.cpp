@@ -14,6 +14,15 @@ bool loadMedia();
 // frees media and shuts down SDL
 void close();
 
+//// Global Variables
+// main game window
+SDL_Window* gWindow = NULL;
+// game window's surface
+SDL_Surface* gScreenSurface = NULL;
+// image to be loaded
+SDL_Surface* gHelloWorld = NULL;
+
+
 // main function
 int main(int argc, char* args[])
 {
