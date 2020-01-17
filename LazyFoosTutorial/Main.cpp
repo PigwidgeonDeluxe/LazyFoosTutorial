@@ -81,19 +81,19 @@ int main(int argc, char* args[])
 							// Select surfaces based on key press
 							switch (e.key.keysym.sym)
 							{
-							case SDLK_UP:
+							case SDLK_w:
 								gCurrentSurface = gKeyPressSurfaces[KEY_PRESS_SURFACE_UP];
 								break;
 
-							case SDLK_DOWN:
+							case SDLK_s:
 								gCurrentSurface = gKeyPressSurfaces[KEY_PRESS_SURFACE_DOWN];
 								break;
 
-							case SDLK_LEFT:
+							case SDLK_a:
 								gCurrentSurface = gKeyPressSurfaces[KEY_PRESS_SURFACE_LEFT];
 								break;
 
-							case SDLK_RIGHT:
+							case SDLK_d:
 								gCurrentSurface = gKeyPressSurfaces[KEY_PRESS_SURFACE_RIGHT];
 								break;
 
